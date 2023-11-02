@@ -1,0 +1,5 @@
+C:\Users\sonava\Desktop\Academy.App\Academy.Data\obj\Debug\net6.0\Academy.Data.csproj.AssemblyReference.cache
+C:\Users\sonava\Desktop\Academy.App\Academy.Data\obj\Debug\net6.0\Academy.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonava\Desktop\Academy.App\Academy.Data\obj\Debug\net6.0\Academy.Data.AssemblyInfoInputs.cache
+C:\Users\sonava\Desktop\Academy.App\Academy.Data\obj\Debug\net6.0\Academy.Data.AssemblyInfo.cs
+C:\Users\sonava\Desktop\Academy.App\Academy.Data\obj\Debug\net6.0\Academy.Data.csproj.CoreCompileInputs.cache

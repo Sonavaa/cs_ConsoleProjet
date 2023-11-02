@@ -1,1 +1,3 @@
-﻿Console.WriteLine();
+﻿using Academy.Core.Models;
+
+Console.WriteLine();

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Academy.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Academy.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Academy.Core/1.0.0": {
+      "type": "project",
+      "path": "../Academy.Core/Academy.Core.csproj",
+      "msbuildProject": "../Academy.Core/Academy.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Academy.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\sonava\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sonava\\Desktop\\Academy.App\\Academy.Core\\Academy.Core.csproj": {
+              "projectPath": "C:\\Users\\sonava\\Desktop\\Academy.App\\Academy.Core\\Academy.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
