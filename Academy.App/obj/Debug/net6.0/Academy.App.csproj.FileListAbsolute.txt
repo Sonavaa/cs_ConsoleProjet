@@ -1,0 +1,15 @@
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\Academy.App.csproj.AssemblyReference.cache
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\Academy.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\Academy.App.AssemblyInfoInputs.cache
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\Academy.App.AssemblyInfo.cs
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\Academy.App.csproj.CoreCompileInputs.cache
+C:\Users\sonava\Desktop\Academy.App\Academy.App\bin\Debug\net6.0\Academy.App.exe
+C:\Users\sonava\Desktop\Academy.App\Academy.App\bin\Debug\net6.0\Academy.App.deps.json
+C:\Users\sonava\Desktop\Academy.App\Academy.App\bin\Debug\net6.0\Academy.App.runtimeconfig.json
+C:\Users\sonava\Desktop\Academy.App\Academy.App\bin\Debug\net6.0\Academy.App.dll
+C:\Users\sonava\Desktop\Academy.App\Academy.App\bin\Debug\net6.0\Academy.App.pdb
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\Academy.App.dll
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\refint\Academy.App.dll
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\Academy.App.pdb
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\Academy.App.genruntimeconfig.cache
+C:\Users\sonava\Desktop\Academy.App\Academy.App\obj\Debug\net6.0\ref\Academy.App.dll
