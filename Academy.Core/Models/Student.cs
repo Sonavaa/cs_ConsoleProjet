@@ -12,13 +12,14 @@ namespace Academy.Core.Models
         public Education Group { get; set; }
         public int Average { get; set; }
 
-        public Student(int id, string fullName, string group, int average)
+        public Student(string id, string fullName, Education group, int average)
         {
             _id++;
-            Id = _id;
+            Id = $"{Group.ToString()[0]}-{_id}";
             FullName = fullName;
             Group = group;
             Average = average;
+                
         }
     }
 }
