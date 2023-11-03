@@ -1,9 +1,11 @@
 ﻿
+using Academy.Core.Models.BaseModels;
 using Academy.Core.Repositories;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Academy.Data.Repositories
 {
-    public class Repository<T> : IRepository<T>
+    public class Repository<T> : IRepository<T> where T : BaseModel
     {
         List<T> values = new List<T>();
         public async Task CreateAsync(T entity)
@@ -11,14 +13,14 @@ namespace Academy.Data.Repositories
            values.Add(entity);
         }
 
-        public async Task<List<T>> GetAllAsync(T entity)
+        public async Task<List<T>> GetAllAsync()
         {
             return values;
         }
 
-        public Task<T> GetAsync(T entity)
+        public async Task<T> GetAsync(Func<T, bool> func)
         {
-            throw new NotImplementedException();
+            return values.FirstOrDefault(func);
         }
 
         public async Task RemoveAsync(T entity)
@@ -30,12 +32,5 @@ namespace Academy.Data.Repositories
         {
             throw new NotImplementedException();
         }
-
-
-
-
-
-
-
     }
 }

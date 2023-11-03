@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Academy.Core\Academy.Core.csproj" />
+    <ProjectReference Include="..\Academy.Service\Academy.Service.csproj" />
   </ItemGroup>
 
 </Project>

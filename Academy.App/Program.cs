@@ -1,3 +1,5 @@
-﻿using Academy.Core.Models;
+﻿using Academy.Service.Implementations;
 
-Console.WriteLine();
+MenuService menuService = new MenuService();
+await menuService.RunApp();
+

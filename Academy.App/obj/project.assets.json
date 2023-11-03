@@ -11,6 +11,32 @@
         "runtime": {
           "bin/placeholder/Academy.Core.dll": {}
         }
+      },
+      "Academy.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Academy.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Academy.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.Data.dll": {}
+        }
+      },
+      "Academy.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Academy.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Academy.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Academy.Service.dll": {}
+        }
       }
     }
   },
@@ -19,11 +45,22 @@
       "type": "project",
       "path": "../Academy.Core/Academy.Core.csproj",
       "msbuildProject": "../Academy.Core/Academy.Core.csproj"
+    },
+    "Academy.Data/1.0.0": {
+      "type": "project",
+      "path": "../Academy.Data/Academy.Data.csproj",
+      "msbuildProject": "../Academy.Data/Academy.Data.csproj"
+    },
+    "Academy.Service/1.0.0": {
+      "type": "project",
+      "path": "../Academy.Service/Academy.Service.csproj",
+      "msbuildProject": "../Academy.Service/Academy.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Academy.Core >= 1.0.0"
+      "Academy.Core >= 1.0.0",
+      "Academy.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,6 +97,9 @@
           "projectReferences": {
             "C:\\Users\\HP\\Desktop\\cs_ConsoleProjet\\Academy.Core\\Academy.Core.csproj": {
               "projectPath": "C:\\Users\\HP\\Desktop\\cs_ConsoleProjet\\Academy.Core\\Academy.Core.csproj"
+            },
+            "C:\\Users\\HP\\Desktop\\cs_ConsoleProjet\\Academy.Service\\Academy.Service.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\cs_ConsoleProjet\\Academy.Service\\Academy.Service.csproj"
             }
           }
         }
