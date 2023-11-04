@@ -11,19 +11,14 @@ namespace Academy.Service.Implementations
     public class StudentService : IStudentService
     {
         IStudentRepository _studentRepository = new StudentRepository();
-        public async Task<string> CreateAsync(string Id, string FullName, Education Group, int Average)
+        public async Task<string> CreateAsync(string FullName, Education Group, int Average)
         {
-            if (string.IsNullOrWhiteSpace(FullName))
-                return "FullName can not be empty";
-
-            if (string.IsNullOrWhiteSpace(Id))
-                return "FullName can not be empty";
-
             if (Average < 0 && Average > 100)
                 return "Average can not be less than 0 and more than 100";
-            Student student = new Student(Id, FullName, Group, Average);
+            Student student = new Student(FullName, Group, Average);
             await _studentRepository.CreateAsync(student);
             return "Successfully Created";
+           
         }
 
         public async Task<string> GetAsync(string Id)

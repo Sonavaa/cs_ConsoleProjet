@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Academy.Data",
+    "\\Academy.Data\\Repositories",
     "\\Academy.Service",
     "\\Academy.Service\\Implementations"
   ],
-  "SelectedNode": "\\Academy.App.sln",
+  "SelectedNode": "\\Academy.Data\\Repositories\\Repository.cs",
   "PreviewInSolutionExplorer": false
 }

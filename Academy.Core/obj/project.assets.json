@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\sonava\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\cs_ConsoleProjet\\Academy.Core\\Academy.Core.csproj",
+      "projectUniqueName": "C:\\Users\\sonava\\Desktop\\cs_ConsoleProjet\\Academy.Core\\Academy.Core.csproj",
       "projectName": "Academy.Core",
-      "projectPath": "C:\\Users\\HP\\Desktop\\cs_ConsoleProjet\\Academy.Core\\Academy.Core.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\cs_ConsoleProjet\\Academy.Core\\obj\\",
+      "projectPath": "C:\\Users\\sonava\\Desktop\\cs_ConsoleProjet\\Academy.Core\\Academy.Core.csproj",
+      "packagesPath": "C:\\Users\\sonava\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sonava\\Desktop\\cs_ConsoleProjet\\Academy.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\sonava\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
