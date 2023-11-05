@@ -1,5 +1,4 @@
-﻿
-using Academy.Core.Models.BaseModels;
+﻿using Academy.Core.Models.BaseModels;
 using Academy.Core.Repositories;
 using System.Reflection.Metadata.Ecma335;
 

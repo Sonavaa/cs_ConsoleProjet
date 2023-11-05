@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "Academy.App/1.0.0": {
         "dependencies": {
-          "Academy.Core": "1.0.0",
           "Academy.Service": "1.0.0"
         },
         "runtime": {

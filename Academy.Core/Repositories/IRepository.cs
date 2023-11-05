@@ -1,5 +1,4 @@
-﻿
-using Academy.Core.Models.BaseModels;
+﻿using Academy.Core.Models.BaseModels;
 
 namespace Academy.Core.Repositories
 {

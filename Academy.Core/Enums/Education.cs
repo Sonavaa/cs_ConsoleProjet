@@ -1,9 +1,8 @@
-﻿
-namespace Academy.Core.Enums
+﻿namespace Academy.Core.Enums
 {
     public enum Education
     {
-        Programming,
+        Programming = 1,
         Designer,
         SystemAdministrator
     }
