@@ -43,3 +43,17 @@ C:\Users\sonava\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.Da
 C:\Users\sonava\Desktop\cs_ConsoleProjet\Academy.App\obj\Debug\net6.0\Academy.App.csproj.CopyComplete
 C:\Users\sonava\Desktop\cs_ConsoleProjet\Academy.App\obj\Debug\net6.0\Academy.App.genruntimeconfig.cache
 C:\Users\sonava\Desktop\cs_ConsoleProjet\Academy.App\obj\Debug\net6.0\ref\Academy.App.dll
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.App.exe
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.App.deps.json
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.App.runtimeconfig.json
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.App.dll
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.App.pdb
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.Core.dll
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.Data.dll
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.Service.dll
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.Core.pdb
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.Service.pdb
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\bin\Debug\net6.0\Academy.Data.pdb
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\obj\Debug\net6.0\Academy.App.csproj.CopyComplete
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\obj\Debug\net6.0\Academy.App.genruntimeconfig.cache
+C:\Users\HP\Desktop\cs_ConsoleProjet\Academy.App\obj\Debug\net6.0\ref\Academy.App.dll

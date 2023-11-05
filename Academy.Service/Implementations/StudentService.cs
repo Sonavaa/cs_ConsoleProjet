@@ -4,8 +4,6 @@ using Academy.Core.Models;
 using Academy.Core.Repositories;
 using Academy.Data.Repositories;
 using Academy.Service.Interfaces;
-using System.Security.Cryptography.X509Certificates;
-
 namespace Academy.Service.Implementations
 {
     public class StudentService : IStudentService
@@ -13,12 +11,13 @@ namespace Academy.Service.Implementations
         IStudentRepository _studentRepository = new StudentRepository();
         public async Task<string> CreateAsync(string FullName, Education Group, int Average)
         {
+            if (string.IsNullOrWhiteSpace(FullName))
+                return "FullName can not be empty";
             if (Average < 0 && Average > 100)
                 return "Average can not be less than 0 and more than 100";
             Student student = new Student(FullName, Group, Average);
             await _studentRepository.CreateAsync(student);
             return "Successfully Created";
-           
         }
 
         public async Task<string> GetAsync(string Id)
@@ -27,8 +26,8 @@ namespace Academy.Service.Implementations
             if (student == null)
                 return "Student Not Found!!";
 
-            Console.WriteLine($"Id: {student.Id},FullName: {student.FullName},Group: {student.Group},Average: {student.Average},CreatedAt: {student.CreatedAt}, UpdatedAt: {student.UpdatedAt}");
-            return "The Student's Data İs Displayed";
+            Console.WriteLine($"Id: {student.Id}, FullName: {student.FullName}, Group: {student.Group}, Average: {student.Average}, CreatedAt: {student.CreatedAt}, UpdatedAt: {student.UpdatedAt}");
+            return " ";
         }
 
         public async Task GetAllAsync()    
@@ -37,7 +36,7 @@ namespace Academy.Service.Implementations
             List<Student> students = await _studentRepository.GetAllAsync();   
             foreach(var student in students)
             {
-                Console.WriteLine($"Id: {student.Id},FullName: {student.FullName},Group: {student.Group},Average: {student.Average},CreatedAt: {student.CreatedAt}, UpdatedAt: {student.UpdatedAt}");
+                Console.WriteLine($"Id: {student.Id}, FullName: {student.FullName}, Group: {student.Group}, Average: {student.Average}, CreatedAt: {student.CreatedAt}, UpdatedAt: {student.UpdatedAt}");
             }
         }
 
@@ -64,7 +63,7 @@ namespace Academy.Service.Implementations
                 return "FullName can not be empty";
 
             if (Average < 0 && Average > 100)
-                return "Average can not be less than 0 and more than 100";
+            return "Average can not be less than 0 and more than 100";
             student.Id = Id;
             student.FullName = FullName;
             student.Group = Group;

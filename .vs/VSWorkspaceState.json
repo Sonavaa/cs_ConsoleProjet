@@ -6,6 +6,6 @@
     "\\Academy.Service",
     "\\Academy.Service\\Implementations"
   ],
-  "SelectedNode": "\\Academy.Data\\Repositories\\Repository.cs",
+  "SelectedNode": "\\Academy.Service\\Implementations\\MenuService.cs",
   "PreviewInSolutionExplorer": false
 }

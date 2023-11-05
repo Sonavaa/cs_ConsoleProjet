@@ -72,6 +72,8 @@ namespace Academy.Service.Implementations
             string Id = Console.ReadLine();
             Console.WriteLine("Edit FullName");
             string FullName = Console.ReadLine();
+            Console.WriteLine("Edit Group");
+            string Group = Console.ReadLine();
             Console.WriteLine("Edit Average");
             int.TryParse(Console.ReadLine(), out int Average);
             int i = 1;
@@ -80,13 +82,14 @@ namespace Academy.Service.Implementations
                 Console.WriteLine($"{i}.{item}");
                 i++;
             }
-            int.TryParse(Console.ReadLine(), out int EnumIndex);
+
             bool IsExist;
+            int EnumIndex;
             do
             {
                 Console.WriteLine("Add Student Group");
+                int.TryParse(Console.ReadLine(), out EnumIndex);
                 IsExist = Enum.IsDefined(typeof(Education), (Education)EnumIndex);
-                break;
             }
             while (!IsExist);
            string result = await studentService.UpdateAsync(Id,FullName, (Education)EnumIndex, Average);
